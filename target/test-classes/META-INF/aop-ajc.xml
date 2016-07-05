@@ -1,0 +1,7 @@
+<aspectj>
+<aspects>
+<aspect name="com.raze.diplomado.seguridad.tarea9.domain.Catalogo1DataOnDemand_Roo_Configurable"/>
+<aspect name="com.raze.diplomado.seguridad.tarea9.domain.Catalogo1IntegrationTest_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,14 @@
+// Spring Roo 1.3.1.RELEASE [rev f4f5256] log opened at 2016-07-05 11:14:49
+project --topLevelPackage com.raze.diplomado.seguridad.tarea9 --projectName Tarea9
+jpa setup --database HYPERSONIC_IN_MEMORY --provider HIBERNATE 
+hint
+entity jpa --class ~.domain.Catalogo1 --activeRecord false --testAutomatically 
+field string llave
+field string valor
+repository jpa --interface ~.repository.Catalogo1Repository --entity ~.domain.Catalogo1
+service type --interface ~.service.Catalogo1Service --entity  ~.domain.Catalogo1
+web mvc setup
+web mvc all --package ~.controller
+web mvc language --code es
+security setup
+logging setup --level INFO

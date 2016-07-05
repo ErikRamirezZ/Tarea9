@@ -1,0 +1,13 @@
+<aspectj>
+<aspects>
+<aspect name="com.raze.diplomado.seguridad.tarea9.domain.Catalogo1_Roo_JavaBean"/>
+<aspect name="com.raze.diplomado.seguridad.tarea9.service.Catalogo1ServiceImpl_Roo_Service"/>
+<aspect name="com.raze.diplomado.seguridad.tarea9.repository.Catalogo1Repository_Roo_Jpa_Repository"/>
+<aspect name="com.raze.diplomado.seguridad.tarea9.service.Catalogo1Service_Roo_Service"/>
+<aspect name="com.raze.diplomado.seguridad.tarea9.controller.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.raze.diplomado.seguridad.tarea9.controller.Catalogo1Controller_Roo_Controller"/>
+<aspect name="com.raze.diplomado.seguridad.tarea9.domain.Catalogo1_Roo_ToString"/>
+<aspect name="com.raze.diplomado.seguridad.tarea9.domain.Catalogo1_Roo_Jpa_Entity"/>
+</aspects>
+</aspectj>
+
